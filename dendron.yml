@@ -31,8 +31,16 @@ site:
     siteHierarchies:
         - root
     siteRootDir: docs
+    siteUrl: https://mapp-metabolomics-unit.github.io
+    assetsPrefix: mapp-dws-public
+    gh_edit_link: true
+    gh_edit_link_text: Click here to edit this page on Github !
+    gh_edit_repository: 'https://github.com/mapp-metabolomics-unit/mapp-dws-public'
+    gh_edit_branch: main
+    gh_edit_view_mode: edit
+    siteLastModified: true
     usePrettyRefs: true
-    title: Dendron
+    title: MAPP Metabolomics Public Dendron
     description: Personal knowledge space
     duplicateNoteBehavior:
         action: useVault
