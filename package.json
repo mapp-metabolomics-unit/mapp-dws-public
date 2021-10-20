@@ -23,6 +23,6 @@
   "homepage": "https://github.com/mapp-metabolomics-unit/mapp-dws-public#readme",
   "dependencies": {
     "@dendronhq/dendron-11ty": "^1.56.0",
-    "@dendronhq/dendron-cli": "^0.56.0"
+    "@dendronhq/dendron-cli": "^0.64.0"
   }
 }
