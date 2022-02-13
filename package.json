@@ -1,26 +1,5 @@
 {
-  "name": "mapp-dws-public",
-  "version": "1.0.0",
-  "description": "MAPP Metabolomics Unit Public Dendron Workspace",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mapp-metabolomics-unit/mapp-dws-public.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mapp-metabolomics-unit/mapp-dws-public/issues"
-  },
-  "homepage": "https://github.com/mapp-metabolomics-unit/mapp-dws-public#readme",
   "dependencies": {
-    "@dendronhq/dendron-cli": "^0.68.0"
+    "@dendronhq/dendron-cli": "^0.81.0"
   }
 }
