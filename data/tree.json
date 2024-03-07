@@ -1,0 +1,312 @@
+{
+  "roots": [
+    {
+      "key": "TRvMUEW7HVT7Vvny0AUF1",
+      "title": "Dendron Projects Labelled Sugars Isotopic Ratio Calc Comp",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "zbltzhf49jneruzhejqlzty",
+      "title": "Hilic",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "4ade8jh5lae5a1y61r2d7y0",
+      "title": "Lcms",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "0ycy0n1wprvx7h82emg4zgc",
+      "title": "Metadata",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "nzeyb1pisl1too8mvy2ih0c",
+          "title": "Templates",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "udold3w80ok1w5zqyvppww9",
+      "title": "Open Notebook",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "mslgovrqvaz2nar5uvhsd2i",
+          "title": "Mapp",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "5ahh4lj70p7qxjb92kmta1k",
+              "title": "Pmallard",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "a1wfhat4lozcx35l6jgkdod",
+                  "title": "2023",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": [
+                    {
+                      "key": "5n6ci7xdxehbovr1624x3nm",
+                      "title": "02",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": [
+                        {
+                          "key": "stq6lmduczyp8abdw3w02i3",
+                          "title": "2023-02-12",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "RBxrtKZIWsMnHMVAyLlmc",
+      "title": "Pricelist",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "YSBdEmydk8XLo8ssSQec2",
+          "title": "Eval",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "fUD4wPYZe4AE8Gslj4qoA",
+          "title": "Ph",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "yiNaYRHMNL83IomXDrDSG",
+          "title": "Shiny",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "IpNMgeHf1018z0kbovjk9",
+              "title": "New",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "AjS4TQTF1i254OvXs20UW",
+          "title": "Table",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "yuWI3J8DM5atDq5xoZMcD",
+              "title": "Subnote",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mBtD1qPsLMRYntiuhCOBG",
+      "title": "Protocols",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "55rxkzg7x6d9dw831kl7z2a",
+          "title": "Bame",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "yf89dyPNMJJilgd5eojO1",
+          "title": "Cystathionine Gc",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "SqCdIiLVY6TFjNI926g0X",
+          "title": "Fame",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "48173l5udd340kw1a4v9tuv",
+      "title": "Report Template",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "yohkugdcff8q2insh88fxpl",
+      "title": "Ressources",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "gobztl67zupzfyoy1hs5ujo",
+          "title": "Hplc",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "a0q3soohlavv0d4qul7fady",
+      "title": "Templates",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "wrtxw1regvri4gj87drbyjb",
+          "title": "Open Notebook",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "c9icjb077mq1x13n7mnyu64",
+              "title": "Mapp",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "wfor0q72t1wohqjmxi1k6nb",
+                  "title": "Pmallard",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "TRvMUEW7HVT7Vvny0AUF1": null,
+    "zbltzhf49jneruzhejqlzty": null,
+    "4ade8jh5lae5a1y61r2d7y0": null,
+    "0ycy0n1wprvx7h82emg4zgc": null,
+    "nzeyb1pisl1too8mvy2ih0c": "0ycy0n1wprvx7h82emg4zgc",
+    "udold3w80ok1w5zqyvppww9": null,
+    "mslgovrqvaz2nar5uvhsd2i": "udold3w80ok1w5zqyvppww9",
+    "5ahh4lj70p7qxjb92kmta1k": "mslgovrqvaz2nar5uvhsd2i",
+    "a1wfhat4lozcx35l6jgkdod": "5ahh4lj70p7qxjb92kmta1k",
+    "5n6ci7xdxehbovr1624x3nm": "a1wfhat4lozcx35l6jgkdod",
+    "stq6lmduczyp8abdw3w02i3": "5n6ci7xdxehbovr1624x3nm",
+    "RBxrtKZIWsMnHMVAyLlmc": null,
+    "YSBdEmydk8XLo8ssSQec2": "RBxrtKZIWsMnHMVAyLlmc",
+    "fUD4wPYZe4AE8Gslj4qoA": "RBxrtKZIWsMnHMVAyLlmc",
+    "yiNaYRHMNL83IomXDrDSG": "RBxrtKZIWsMnHMVAyLlmc",
+    "IpNMgeHf1018z0kbovjk9": "yiNaYRHMNL83IomXDrDSG",
+    "AjS4TQTF1i254OvXs20UW": "RBxrtKZIWsMnHMVAyLlmc",
+    "yuWI3J8DM5atDq5xoZMcD": "AjS4TQTF1i254OvXs20UW",
+    "mBtD1qPsLMRYntiuhCOBG": null,
+    "55rxkzg7x6d9dw831kl7z2a": "mBtD1qPsLMRYntiuhCOBG",
+    "yf89dyPNMJJilgd5eojO1": "mBtD1qPsLMRYntiuhCOBG",
+    "SqCdIiLVY6TFjNI926g0X": "mBtD1qPsLMRYntiuhCOBG",
+    "48173l5udd340kw1a4v9tuv": null,
+    "yohkugdcff8q2insh88fxpl": null,
+    "gobztl67zupzfyoy1hs5ujo": "yohkugdcff8q2insh88fxpl",
+    "a0q3soohlavv0d4qul7fady": null,
+    "wrtxw1regvri4gj87drbyjb": "a0q3soohlavv0d4qul7fady",
+    "c9icjb077mq1x13n7mnyu64": "wrtxw1regvri4gj87drbyjb",
+    "wfor0q72t1wohqjmxi1k6nb": "c9icjb077mq1x13n7mnyu64"
+  },
+  "notesLabelById": {
+    "TRvMUEW7HVT7Vvny0AUF1": "Dendron Projects Labelled Sugars Isotopic Ratio Calc Comp",
+    "zbltzhf49jneruzhejqlzty": "Hilic",
+    "4ade8jh5lae5a1y61r2d7y0": "Lcms",
+    "0ycy0n1wprvx7h82emg4zgc": "Metadata",
+    "nzeyb1pisl1too8mvy2ih0c": "Templates",
+    "udold3w80ok1w5zqyvppww9": "Open Notebook",
+    "mslgovrqvaz2nar5uvhsd2i": "Mapp",
+    "5ahh4lj70p7qxjb92kmta1k": "Pmallard",
+    "a1wfhat4lozcx35l6jgkdod": "2023",
+    "5n6ci7xdxehbovr1624x3nm": "02",
+    "stq6lmduczyp8abdw3w02i3": "2023-02-12",
+    "RBxrtKZIWsMnHMVAyLlmc": "Pricelist",
+    "YSBdEmydk8XLo8ssSQec2": "Eval",
+    "fUD4wPYZe4AE8Gslj4qoA": "Ph",
+    "yiNaYRHMNL83IomXDrDSG": "Shiny",
+    "IpNMgeHf1018z0kbovjk9": "New",
+    "AjS4TQTF1i254OvXs20UW": "Table",
+    "yuWI3J8DM5atDq5xoZMcD": "Subnote",
+    "mBtD1qPsLMRYntiuhCOBG": "Protocols",
+    "55rxkzg7x6d9dw831kl7z2a": "Bame",
+    "yf89dyPNMJJilgd5eojO1": "Cystathionine Gc",
+    "SqCdIiLVY6TFjNI926g0X": "Fame",
+    "48173l5udd340kw1a4v9tuv": "Report Template",
+    "yohkugdcff8q2insh88fxpl": "Ressources",
+    "gobztl67zupzfyoy1hs5ujo": "Hplc",
+    "a0q3soohlavv0d4qul7fady": "Templates",
+    "wrtxw1regvri4gj87drbyjb": "Open Notebook",
+    "c9icjb077mq1x13n7mnyu64": "Mapp",
+    "wfor0q72t1wohqjmxi1k6nb": "Pmallard"
+  }
+}
