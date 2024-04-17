@@ -2,7 +2,7 @@
 id: 48173l5udd340kw1a4v9tuv
 title: Report Template
 desc: ''
-updated: 1669801913799
+updated: 1713164913181
 created: 1669800331916
 ---
 
@@ -54,3 +54,17 @@ https://github.com/REditorSupport/vscode-R
 ## Automated reports with Jupyter Notebooks (using Jupytext and Papermill)
 
 https://medium.com/capital-fund-management/automated-reports-with-jupyter-notebooks-using-jupytext-and-papermill-619e60c37330
+
+
+# Snippets
+
+    {
+        "key": "alt+cmd+i alt+cmd+n",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "```{r $1, echo=FALSE, fig.cap=\"$2\", out.width = '90%'}\nknitr::include_graphics(file.path(params$$paths$$relative, \"docs\", params$$mapp_project, params$$mapp_batch, \"results\", \"img\", \"$1\"))\n```\n"
+        }
+    },
+
+    
