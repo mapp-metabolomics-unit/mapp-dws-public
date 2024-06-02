@@ -1,0 +1,39 @@
+<h1 id="report-template">Report Template<a aria-hidden="true" class="anchor-heading icon-link" href="#report-template"></a></h1>
+<p>Here we will gather keep some info, ressources and links for (metabolomics) data analysis reports.</p>
+<p>Indeed the Dendron webpages and markdown are extremelly usefull and have been used up to now for reports. However the plain and simple pdf export is crucially lacking.</p>
+<p>These should be possible to consult as : </p>
+<ul>
+<li>html</li>
+<li>pdf</li>
+<li>raw format (.txt .md etc.)</li>
+</ul>
+<p>A priori Rmarkdown format looks interesting for reports specifically and maybe a bit more flexible than the Jupyter notebooksbut we will check in both directions
+Both are language agnostic but Jupyter might support a bit more of them.</p>
+<h1 id="rmarkdown">Rmarkdown<a aria-hidden="true" class="anchor-heading icon-link" href="#rmarkdown"></a></h1>
+<h2 id="plus">Plus<a aria-hidden="true" class="anchor-heading icon-link" href="#plus"></a></h2>
+<ul>
+<li>easily support and handles .bib and bibliography lib</li>
+</ul>
+<h2 id="minus">Minus<a aria-hidden="true" class="anchor-heading icon-link" href="#minus"></a></h2>
+<h2 id="ressources">Ressources<a aria-hidden="true" class="anchor-heading icon-link" href="#ressources"></a></h2>
+<p>Some ressources and links</p>
+<h3 id="the-definitive-rmarkdown-guide">The Definitive Rmarkdown guide<a aria-hidden="true" class="anchor-heading icon-link" href="#the-definitive-rmarkdown-guide"></a></h3>
+<p><a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a></p>
+<p><a href="https://arshren.medium.com/a-high-quality-reports-using-r-markdown-76fdaba3c7b6">https://arshren.medium.com/a-high-quality-reports-using-r-markdown-76fdaba3c7b6</a></p>
+<p><a href="https://github.com/PJDeSutter/Method-Validation">https://github.com/PJDeSutter/Method-Validation</a></p>
+<p><a href="https://github.com/REditorSupport/vscode-R">https://github.com/REditorSupport/vscode-R</a></p>
+<h1 id="jupyter">Jupyter<a aria-hidden="true" class="anchor-heading icon-link" href="#jupyter"></a></h1>
+<h2 id="plus-1">Plus<a aria-hidden="true" class="anchor-heading icon-link" href="#plus-1"></a></h2>
+<h2 id="minus-1">Minus<a aria-hidden="true" class="anchor-heading icon-link" href="#minus-1"></a></h2>
+<h2 id="automated-reports-with-jupyter-notebooks-using-jupytext-and-papermill">Automated reports with Jupyter Notebooks (using Jupytext and Papermill)<a aria-hidden="true" class="anchor-heading icon-link" href="#automated-reports-with-jupyter-notebooks-using-jupytext-and-papermill"></a></h2>
+<p><a href="https://medium.com/capital-fund-management/automated-reports-with-jupyter-notebooks-using-jupytext-and-papermill-619e60c37330">https://medium.com/capital-fund-management/automated-reports-with-jupyter-notebooks-using-jupytext-and-papermill-619e60c37330</a></p>
+<h1 id="snippets">Snippets<a aria-hidden="true" class="anchor-heading icon-link" href="#snippets"></a></h1>
+<pre><code>{
+    "key": "alt+cmd+i alt+cmd+n",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+        "snippet": "```{r $1, echo=FALSE, fig.cap=\"$2\", out.width = '90%'}\nknitr::include_graphics(file.path(params$$paths$$relative, \"docs\", params$$mapp_project, params$$mapp_batch, \"results\", \"img\", \"$1\"))\n```\n"
+    }
+},
+</code></pre>
