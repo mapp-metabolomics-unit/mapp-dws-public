@@ -1,0 +1,616 @@
+{
+  "roots": [
+    {
+      "key": "TRvMUEW7HVT7Vvny0AUF1",
+      "title": "Dendron Projects Labelled Sugars Isotopic Ratio Calc Comp",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "zbltzhf49jneruzhejqlzty",
+      "title": "Hilic",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "4ade8jh5lae5a1y61r2d7y0",
+      "title": "Lcms",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "0ycy0n1wprvx7h82emg4zgc",
+      "title": "Metadata",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "nzeyb1pisl1too8mvy2ih0c",
+          "title": "Templates",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "4ovcclisgr5my4neahim729",
+      "title": "Methods",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "o2chell1h2z8mk1to6b8ann",
+          "title": "Data Processing",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "byhyyaof5a84lttrjshvtui",
+              "title": "Metabolite Annotation",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "m9c56hci1fztmro5jflwkcj",
+              "title": "Molecular Networking",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "g3k3fvda7q4b1efq0j84eyg",
+              "title": "Mzmine",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "5qdpjk9p8igi2c9u16g04x8",
+          "title": "Lc",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "3zx39e8tdcthecaokha495h",
+              "title": "C18",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "sf6hetaa55iyt28iu8hol9j",
+              "title": "Hilic",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "x8pivilwj19ka0qnnjf4n2q",
+          "title": "Lcms",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "vu09cqa7sv9dng0ix47vtme",
+              "title": "C18",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "lr34n1v9fv7jwtcla1qsc8c",
+                  "title": "ddMS2",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": [
+                    {
+                      "key": "lg8rocdp1x2fbi9hbj6ndoi",
+                      "title": "pos",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "key": "ruas1da2clzz9a01uqzfat0",
+              "title": "Hilic",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "kr6fmcacbi30qhe71127g7f",
+                  "title": "ddMS2",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": [
+                    {
+                      "key": "01uqth4homm53vq6f28by30",
+                      "title": "pos",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": []
+                    },
+                    {
+                      "key": "jl5znueni4kkfy2s0rjxzpp",
+                      "title": "posne",
+                      "icon": null,
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "8jetm8ztpiiixyhxe4c1rc5",
+          "title": "Ms",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "kzx2qlojsnu5plelgma5swg",
+              "title": "Pos",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            },
+            {
+              "key": "ie8ryxtna74sgn54ons7bbx",
+              "title": "Tune",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "b4odil16hqn0xs3qaip3s2z",
+                  "title": "Neg",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": []
+                },
+                {
+                  "key": "9qm4bgr7ks976pjs8x0ozy2",
+                  "title": "Pos",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mrslbnp9bp5tia1ne4nnszu",
+      "title": "Msconvert",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "ot62otvis8834py099y5xue",
+      "title": "Open Notebook",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "5g9y5n1mp054gthxzm7hdsy",
+          "title": "Mapp",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "8k6jqxrohdl4twumjfwxyt8",
+              "title": "Pmallard",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "p7v39iegdzwgc5k2ycesru5",
+                  "title": "2023",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": [
+                    {
+                      "key": "ij6qrpz7qv4ie26sn0k67ga",
+                      "title": "02",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": [
+                        {
+                          "key": "stq6lmduczyp8abdw3w02i3",
+                          "title": "2023-02-12",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "key": "e2kmel60irsy0ppvboh5epj",
+                  "title": "2024",
+                  "icon": "plusOutlined",
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": [
+                    {
+                      "key": "gjbip5toicpl5qacn8gw9w0",
+                      "title": "04",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": [
+                        {
+                          "key": "wkw7vle3cjzy4ptpsnu75wj",
+                          "title": "2024-04-15",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "key": "rc2rxq5fvitwu686o14zx7w",
+                      "title": "06",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": [
+                        {
+                          "key": "tta58rp6r72t75y6hljzjbm",
+                          "title": "2024-06-02",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "key": "g3me0a9v1tnrw1l9kdteb08",
+                      "title": "10",
+                      "icon": "plusOutlined",
+                      "hasTitleNumberOutlined": false,
+                      "vaultName": "vault",
+                      "children": [
+                        {
+                          "key": "3pjx2nmvkkui2t22zei0sds",
+                          "title": "2024-10-08",
+                          "icon": null,
+                          "hasTitleNumberOutlined": false,
+                          "vaultName": "vault",
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "RBxrtKZIWsMnHMVAyLlmc",
+      "title": "Pricelist",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "YSBdEmydk8XLo8ssSQec2",
+          "title": "Eval",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "fUD4wPYZe4AE8Gslj4qoA",
+          "title": "Ph",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "yiNaYRHMNL83IomXDrDSG",
+          "title": "Shiny",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "IpNMgeHf1018z0kbovjk9",
+              "title": "New",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        },
+        {
+          "key": "AjS4TQTF1i254OvXs20UW",
+          "title": "Table",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "yuWI3J8DM5atDq5xoZMcD",
+              "title": "Subnote",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mBtD1qPsLMRYntiuhCOBG",
+      "title": "Protocols",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "55rxkzg7x6d9dw831kl7z2a",
+          "title": "Bame",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "yf89dyPNMJJilgd5eojO1",
+          "title": "Cystathionine Gc",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        },
+        {
+          "key": "SqCdIiLVY6TFjNI926g0X",
+          "title": "Fame",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "48173l5udd340kw1a4v9tuv",
+      "title": "Report Template",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": []
+    },
+    {
+      "key": "yohkugdcff8q2insh88fxpl",
+      "title": "Ressources",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "gobztl67zupzfyoy1hs5ujo",
+          "title": "Hplc",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "lg0vk8am0b8h5sxptnfhq87",
+      "title": "Templates",
+      "icon": "plusOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "vault",
+      "children": [
+        {
+          "key": "b5s8f0dg5n8uqm6grzdzc22",
+          "title": "Open Notebook",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "vault",
+          "children": [
+            {
+              "key": "xnh08fmurcbq43bt6wu01y8",
+              "title": "Mapp",
+              "icon": "plusOutlined",
+              "hasTitleNumberOutlined": false,
+              "vaultName": "vault",
+              "children": [
+                {
+                  "key": "wfor0q72t1wohqjmxi1k6nb",
+                  "title": "Pmallard",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "vault",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "TRvMUEW7HVT7Vvny0AUF1": null,
+    "zbltzhf49jneruzhejqlzty": null,
+    "4ade8jh5lae5a1y61r2d7y0": null,
+    "0ycy0n1wprvx7h82emg4zgc": null,
+    "nzeyb1pisl1too8mvy2ih0c": "0ycy0n1wprvx7h82emg4zgc",
+    "4ovcclisgr5my4neahim729": null,
+    "o2chell1h2z8mk1to6b8ann": "4ovcclisgr5my4neahim729",
+    "byhyyaof5a84lttrjshvtui": "o2chell1h2z8mk1to6b8ann",
+    "m9c56hci1fztmro5jflwkcj": "o2chell1h2z8mk1to6b8ann",
+    "g3k3fvda7q4b1efq0j84eyg": "o2chell1h2z8mk1to6b8ann",
+    "5qdpjk9p8igi2c9u16g04x8": "4ovcclisgr5my4neahim729",
+    "3zx39e8tdcthecaokha495h": "5qdpjk9p8igi2c9u16g04x8",
+    "sf6hetaa55iyt28iu8hol9j": "5qdpjk9p8igi2c9u16g04x8",
+    "x8pivilwj19ka0qnnjf4n2q": "4ovcclisgr5my4neahim729",
+    "vu09cqa7sv9dng0ix47vtme": "x8pivilwj19ka0qnnjf4n2q",
+    "lr34n1v9fv7jwtcla1qsc8c": "vu09cqa7sv9dng0ix47vtme",
+    "lg8rocdp1x2fbi9hbj6ndoi": "lr34n1v9fv7jwtcla1qsc8c",
+    "ruas1da2clzz9a01uqzfat0": "x8pivilwj19ka0qnnjf4n2q",
+    "kr6fmcacbi30qhe71127g7f": "ruas1da2clzz9a01uqzfat0",
+    "01uqth4homm53vq6f28by30": "kr6fmcacbi30qhe71127g7f",
+    "jl5znueni4kkfy2s0rjxzpp": "kr6fmcacbi30qhe71127g7f",
+    "8jetm8ztpiiixyhxe4c1rc5": "4ovcclisgr5my4neahim729",
+    "kzx2qlojsnu5plelgma5swg": "8jetm8ztpiiixyhxe4c1rc5",
+    "ie8ryxtna74sgn54ons7bbx": "8jetm8ztpiiixyhxe4c1rc5",
+    "b4odil16hqn0xs3qaip3s2z": "ie8ryxtna74sgn54ons7bbx",
+    "9qm4bgr7ks976pjs8x0ozy2": "ie8ryxtna74sgn54ons7bbx",
+    "mrslbnp9bp5tia1ne4nnszu": null,
+    "ot62otvis8834py099y5xue": null,
+    "5g9y5n1mp054gthxzm7hdsy": "ot62otvis8834py099y5xue",
+    "8k6jqxrohdl4twumjfwxyt8": "5g9y5n1mp054gthxzm7hdsy",
+    "p7v39iegdzwgc5k2ycesru5": "8k6jqxrohdl4twumjfwxyt8",
+    "ij6qrpz7qv4ie26sn0k67ga": "p7v39iegdzwgc5k2ycesru5",
+    "stq6lmduczyp8abdw3w02i3": "ij6qrpz7qv4ie26sn0k67ga",
+    "e2kmel60irsy0ppvboh5epj": "8k6jqxrohdl4twumjfwxyt8",
+    "gjbip5toicpl5qacn8gw9w0": "e2kmel60irsy0ppvboh5epj",
+    "wkw7vle3cjzy4ptpsnu75wj": "gjbip5toicpl5qacn8gw9w0",
+    "rc2rxq5fvitwu686o14zx7w": "e2kmel60irsy0ppvboh5epj",
+    "tta58rp6r72t75y6hljzjbm": "rc2rxq5fvitwu686o14zx7w",
+    "g3me0a9v1tnrw1l9kdteb08": "e2kmel60irsy0ppvboh5epj",
+    "3pjx2nmvkkui2t22zei0sds": "g3me0a9v1tnrw1l9kdteb08",
+    "RBxrtKZIWsMnHMVAyLlmc": null,
+    "YSBdEmydk8XLo8ssSQec2": "RBxrtKZIWsMnHMVAyLlmc",
+    "fUD4wPYZe4AE8Gslj4qoA": "RBxrtKZIWsMnHMVAyLlmc",
+    "yiNaYRHMNL83IomXDrDSG": "RBxrtKZIWsMnHMVAyLlmc",
+    "IpNMgeHf1018z0kbovjk9": "yiNaYRHMNL83IomXDrDSG",
+    "AjS4TQTF1i254OvXs20UW": "RBxrtKZIWsMnHMVAyLlmc",
+    "yuWI3J8DM5atDq5xoZMcD": "AjS4TQTF1i254OvXs20UW",
+    "mBtD1qPsLMRYntiuhCOBG": null,
+    "55rxkzg7x6d9dw831kl7z2a": "mBtD1qPsLMRYntiuhCOBG",
+    "yf89dyPNMJJilgd5eojO1": "mBtD1qPsLMRYntiuhCOBG",
+    "SqCdIiLVY6TFjNI926g0X": "mBtD1qPsLMRYntiuhCOBG",
+    "48173l5udd340kw1a4v9tuv": null,
+    "yohkugdcff8q2insh88fxpl": null,
+    "gobztl67zupzfyoy1hs5ujo": "yohkugdcff8q2insh88fxpl",
+    "lg0vk8am0b8h5sxptnfhq87": null,
+    "b5s8f0dg5n8uqm6grzdzc22": "lg0vk8am0b8h5sxptnfhq87",
+    "xnh08fmurcbq43bt6wu01y8": "b5s8f0dg5n8uqm6grzdzc22",
+    "wfor0q72t1wohqjmxi1k6nb": "xnh08fmurcbq43bt6wu01y8"
+  },
+  "notesLabelById": {
+    "TRvMUEW7HVT7Vvny0AUF1": "Dendron Projects Labelled Sugars Isotopic Ratio Calc Comp",
+    "zbltzhf49jneruzhejqlzty": "Hilic",
+    "4ade8jh5lae5a1y61r2d7y0": "Lcms",
+    "0ycy0n1wprvx7h82emg4zgc": "Metadata",
+    "nzeyb1pisl1too8mvy2ih0c": "Templates",
+    "4ovcclisgr5my4neahim729": "Methods",
+    "o2chell1h2z8mk1to6b8ann": "Data Processing",
+    "byhyyaof5a84lttrjshvtui": "Metabolite Annotation",
+    "m9c56hci1fztmro5jflwkcj": "Molecular Networking",
+    "g3k3fvda7q4b1efq0j84eyg": "Mzmine",
+    "5qdpjk9p8igi2c9u16g04x8": "Lc",
+    "3zx39e8tdcthecaokha495h": "C18",
+    "sf6hetaa55iyt28iu8hol9j": "Hilic",
+    "x8pivilwj19ka0qnnjf4n2q": "Lcms",
+    "vu09cqa7sv9dng0ix47vtme": "C18",
+    "lr34n1v9fv7jwtcla1qsc8c": "ddMS2",
+    "lg8rocdp1x2fbi9hbj6ndoi": "pos",
+    "ruas1da2clzz9a01uqzfat0": "Hilic",
+    "kr6fmcacbi30qhe71127g7f": "ddMS2",
+    "01uqth4homm53vq6f28by30": "pos",
+    "jl5znueni4kkfy2s0rjxzpp": "posne",
+    "8jetm8ztpiiixyhxe4c1rc5": "Ms",
+    "kzx2qlojsnu5plelgma5swg": "Pos",
+    "ie8ryxtna74sgn54ons7bbx": "Tune",
+    "b4odil16hqn0xs3qaip3s2z": "Neg",
+    "9qm4bgr7ks976pjs8x0ozy2": "Pos",
+    "mrslbnp9bp5tia1ne4nnszu": "Msconvert",
+    "ot62otvis8834py099y5xue": "Open Notebook",
+    "5g9y5n1mp054gthxzm7hdsy": "Mapp",
+    "8k6jqxrohdl4twumjfwxyt8": "Pmallard",
+    "p7v39iegdzwgc5k2ycesru5": "2023",
+    "ij6qrpz7qv4ie26sn0k67ga": "02",
+    "stq6lmduczyp8abdw3w02i3": "2023-02-12",
+    "e2kmel60irsy0ppvboh5epj": "2024",
+    "gjbip5toicpl5qacn8gw9w0": "04",
+    "wkw7vle3cjzy4ptpsnu75wj": "2024-04-15",
+    "rc2rxq5fvitwu686o14zx7w": "06",
+    "tta58rp6r72t75y6hljzjbm": "2024-06-02",
+    "g3me0a9v1tnrw1l9kdteb08": "10",
+    "3pjx2nmvkkui2t22zei0sds": "2024-10-08",
+    "RBxrtKZIWsMnHMVAyLlmc": "Pricelist",
+    "YSBdEmydk8XLo8ssSQec2": "Eval",
+    "fUD4wPYZe4AE8Gslj4qoA": "Ph",
+    "yiNaYRHMNL83IomXDrDSG": "Shiny",
+    "IpNMgeHf1018z0kbovjk9": "New",
+    "AjS4TQTF1i254OvXs20UW": "Table",
+    "yuWI3J8DM5atDq5xoZMcD": "Subnote",
+    "mBtD1qPsLMRYntiuhCOBG": "Protocols",
+    "55rxkzg7x6d9dw831kl7z2a": "Bame",
+    "yf89dyPNMJJilgd5eojO1": "Cystathionine Gc",
+    "SqCdIiLVY6TFjNI926g0X": "Fame",
+    "48173l5udd340kw1a4v9tuv": "Report Template",
+    "yohkugdcff8q2insh88fxpl": "Ressources",
+    "gobztl67zupzfyoy1hs5ujo": "Hplc",
+    "lg0vk8am0b8h5sxptnfhq87": "Templates",
+    "b5s8f0dg5n8uqm6grzdzc22": "Open Notebook",
+    "xnh08fmurcbq43bt6wu01y8": "Mapp",
+    "wfor0q72t1wohqjmxi1k6nb": "Pmallard"
+  }
+}
