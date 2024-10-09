@@ -2,7 +2,7 @@
 id: 3pjx2nmvkkui2t22zei0sds
 title: '2024-10-08'
 desc: ''
-updated: 1728385634025
+updated: 1728386898224
 created: 1728385335136
 traitIds:
   - open-notebook-mapp-pmallard
@@ -28,16 +28,18 @@ Meeting organized by Piotr Jacobsson
 
 Just as a reminder, it would be great if everyone could be ready with a short self-introduction covering:
 
-
 * What am I responsible for and how does my work relate to facilities? 
 
 * What challenges I know of and what challenges am I facing? 
 
+- Archiving and sharing data
+
 * What tools am I using/maintaining/developing at the moment? 
 
+Omero https://www.openmicroscopy.org/omero/
+
+
 * What is my Data skillset (programming languages, etc.). 
-
-
 
 
 https://unifrch.sharepoint.com/:w:/s/UniFRLIMS/EfTXMqQqwFhDmZ7s7eDS2SMBON2XsKGJ6Z6UcO9OR16XOw?e=NzIQSW
@@ -87,6 +89,10 @@ How do we organize?
 
 How do we name the initiative? 
 
+
+https://mapp-metabolomics-unit.github.io/mapp-dws-public/
+
+https://emi-collection.unifr.ch/directus-test/admin/content/Inat_Data?bookmark=156
 
 
 
