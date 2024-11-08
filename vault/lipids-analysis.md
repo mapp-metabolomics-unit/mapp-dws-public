@@ -2,7 +2,7 @@
 id: vq7xwpdxi15poruey3ib0sh
 title: Lipids Analysis
 desc: ''
-updated: 1728901054834
+updated: 1731058119375
 created: 1728897648261
 ---
 
@@ -37,5 +37,68 @@ https://link.springer.com/article/10.1007/s11306-016-1157-8
 - Global profiling of gut microbiota-associated lipid metabolites in antibiotic-treated mice by LC-MS/MS-based analyses
 https://www.sciencedirect.com/science/article/pii/S2666166721001994
 
+The Hitchhiker’s Guide to Untargeted Lipidomics Analysis: Practical Guidelines
+https://pmc.ncbi.nlm.nih.gov/articles/PMC8624948/pdf/metabolites-11-00713.pdf
 
-All good
+- Global analysis of the yeast lipidome by quantitative shotgun mass spectrometry
+https://www.pnas.org/doi/pdf/10.1073/pnas.0811700106
+
+- The lipidomics reporting checklist a framework for transparency of lipidomic experiments and repurposing resource data
+https://www.jlr.org/article/S0022-2275(24)00126-3/fulltext
+
+
+### Protocols
+
+#### Shevchenko modified
+
+- Work at 4°C on ice bed
+- Take 200 µL of yeasts suspension at XX OD
+- Dirsrupt with beads (metal/glass beads) in 1.5 mL eppies
+- Transfer to pyrex glass tube with screw cap and teflon seal
+- Add 990 µL of DCM/methanol (17:1, V/V)
+- Sonicate 5 min.
+- Transfer the superior phase to a new pyrex glass tube with screw cap and teflon seal.
+- The inferior phase containing Apolar Lipids (AL) is dryied une N2 stream
+- Reextract the polar phase with 990 µL of DCM/methanol (2:1, V/V)
+- Sonicate 5 min.
+- Discard the superior phase.
+- The inferior phase containing Polar Lipids (PL) is dryied une N2 stream
+- Both AL and PL are resuspended in 100 µL of DCM/methanol (1:2, V/V)
+
+#### Bligh and Dyer acid (Bertrand-Michel modified)
+
+- Work at 4°C on ice bed
+- Take 200 µL of yeasts suspension at XX OD
+- Dirsrupt with beads (metal/glass beads) in 1.5 mL eppies
+- Transfer to pyrex glass tube with screw cap and teflon seal
+- Add 2.5:2.5:2 of DCM:MeOHacid:H2O (V/V/V). MeOH acid is MeOH with 2% AceticAcid
+- Sonicate 5 min.
+- Centrifugate 5 min at 2500 rpm
+- Discard the superior phase
+- Dry the inferior phase with N2 stream
+- Resuspend in 200 µL of MeOH
+- Transfer to a vial with glass insert for LC-MS/MS analysis (use glass pasteur pipette)
+
+#### MAPP Lipids extraction protocol
+
+- Work at 4°C on ice bed
+- Take 200 µL of yeasts suspension at XX OD
+- Dirsrupt with beads (metal/glass beads) in 1.5 mL eppies
+- Transfer to pyrex glass tube with screw cap and teflon seal
+- Add pure Heptane (1 mL) using a glass pasteur pipette
+- Sonicate 5 min.
+- Centrifugate 5 min at 2500 rpm
+- Transfer the superior phase to a new pyrex glass tube with screw cap and teflon seal. This is the Ultra Apolar Lipids (UAL) fraction. Save it.
+- Make sure that no water is present in the UAL fraction, else remove it with a glass pasteur pipette.
+- Add pure DCM (1 mL) to the inferior phase using a glass pasteur pipette
+- Sonicate 5 min.
+- Centrifugate 5 min at 2500 rpm
+- Transfer the superior phase to a new pyrex glass tube with screw cap and teflon seal. What remains in the inferior phase of the previous tube is the Apolar Lipids (AL) fraction. Save it.
+- Add DCM:MeOH (1:1, 1 mL) to the superior phase of previous step.
+- Sonicate 5 min.
+- Centrifugate 5 min at 2500 rpm
+- Discard the superior phase. What remains in the inferior phase is the Polar Lipids (PL) fraction. Save it.
+- Dry the AL and PL fractions with N2 stream.
+- Resuspend each fraction in 100 µL of DCM/methanol (1:2, V/V)
+- Transfer to a vial with glass insert for LC-MS/MS analysis (use glass pasteur pipette)
+- UAL can be analyzed by TLC
