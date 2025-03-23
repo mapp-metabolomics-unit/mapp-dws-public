@@ -2,7 +2,7 @@
 id: zbltzhf49jneruzhejqlzty
 title: Hilic
 desc: ''
-updated: 1700204072497
+updated: 1742373704620
 created: 1666244444223
 ---
 
@@ -41,4 +41,6 @@ Preparation of the buffer
 ![](/assets/images/2023-11-17-07-52-35.png)
 
 https://www.sigmaaldrich.com/CH/de/support/calculators-and-apps/mass-molarity-calculator
+
+
 
