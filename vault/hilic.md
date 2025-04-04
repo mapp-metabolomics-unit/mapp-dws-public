@@ -2,7 +2,7 @@
 id: zbltzhf49jneruzhejqlzty
 title: Hilic
 desc: ''
-updated: 1742373704620
+updated: 1743577956163
 created: 1666244444223
 ---
 
@@ -44,3 +44,8 @@ https://www.sigmaaldrich.com/CH/de/support/calculators-and-apps/mass-molarity-ca
 
 
 
+## Sample solvant
+
+https://www.sepscience.com/hilic-solutions-9-sample-solvent-in-hilic/
+
+Max of ACN
