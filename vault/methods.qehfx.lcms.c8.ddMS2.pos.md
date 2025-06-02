@@ -1,0 +1,10 @@
+---
+id: h8tvxds4sy16dbbkzpjcff6
+title: pos
+desc: ''
+updated: 1748866364316
+created: 1748587818194
+---
+
+
+LC‐MS parameters Chromatographic separation was performed on a Transcend VLX-2 UHPLC system (Thermo Fisher Scientific) interfaced with a Q‐Exactive HFX mass spectrometer (Thermo Fisher Scientific), using a heated electrospray ionization (HESI‐II) source. Thermo Scientific Xcalibur 3.1 software was used for instrument control. The LC conditions were as follows: column, Macherey-Nagel Nucleodur C8 Gravity 100 × 2.1 mm, 1.8 μm; mobile phase, (A) ACN:H2O (60:40) with 10mM Ammonium Formate and 0.1% formic acid; (B) ACN:IPA (90:10) with 10mM Ammonium Formate and 0.1% formic acid; flow rate, 600 μL/min; injection volume, 1 μL; gradient, linear gradient of 2%−100% B over 10 min and isocratic at 100% B for 2 min. The optimized HESI‐II parameters were as follows: source voltage, 3.5 kV (pos); sheath gas flow rate (N2), 55 units; auxiliary gas flow rate, 15 units; spare gas flow rate, 3.0; capillary temperature, 300°C, S‐Lens RF Level, 50. The mass analyzer was calibrated using a mixture of caffeine, methionine–arginine–phenylalanine–alanine–acetate, sodium dodecyl sulfate, sodium taurocholate, and Ultramark 1621 in an acetonitrile/methanol/water solution containing 1% formic acid by direct injection. The data‐dependent tandem mass spectrometry (MS/MS) events were performed on the three most intense ions detected in full scan MS (Top5 experiment). The MS/MS isolation window width was 2 Da, and the stepped normalized collision energy was set to 15, 30, and 45 units. In data‐dependent MS/MS experiments, full scans were acquired at a resolution of 45,000 Full Width at Half Maximum (FWHM) (at m/z 200) and MS/MS scans at 30,000 FWHM both with an automatically determined maximum injection time. After being acquired in an MS/MS scan, parent ions were placed in a dynamic exclusion list for 2.0 s.
