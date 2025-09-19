@@ -1,0 +1,54 @@
+<h1 id="msconvert">Msconvert<a aria-hidden="true" class="anchor-heading icon-link" href="#msconvert"></a></h1>
+<p>Setting up msconvert bot on commons-server</p>
+<p><a href="https://hub.docker.com/r/chambm/pwiz-skyline-i-agree-to-the-vendor-licenses">https://hub.docker.com/r/chambm/pwiz-skyline-i-agree-to-the-vendor-licenses</a></p>
+<h3 id="to-launch-msconvert-on-specific-pattern-of-files">To launch msconvert on specific pattern of files<a aria-hidden="true" class="anchor-heading icon-link" href="#to-launch-msconvert-on-specific-pattern-of-files"></a></h3>
+<pre class="language-bash"><code class="language-bash"><span class="token function">docker</span> run -it --rm -e <span class="token assign-left variable">WINEDEBUG</span><span class="token operator">=</span>-all -v /media/share/mapp/public/QE_plus_unifr/raw:/data -v /home/allardpm/sandbox:/output chambm/pwiz-skyline-i-agree-to-the-vendor-licenses /bin/bash -c <span class="token string">'for file in /data/1684941280_PMA_dbgi_000993_01_01*.raw; do wine msconvert "$file" --mzML --64 --zlib --outdir /output; done'</span>
+</code></pre>
+<p>For the rest we have this automatized at the moment with the following script:
+Also at <a href="https://github.com/mapp-metabolomics-unit/msconvert-launcher/blob/9540e2f9f8b9f600a1beb38f061f388e0a1fc4e4/src/launcher.sh">https://github.com/mapp-metabolomics-unit/msconvert-launcher/blob/9540e2f9f8b9f600a1beb38f061f388e0a1fc4e4/src/launcher.sh</a></p>
+<pre class="language-bash"><code class="language-bash"><span class="token shebang important">#!/bin/bash</span>
+
+<span class="token comment"># Define input and output directories</span>
+<span class="token assign-left variable">input_dir</span><span class="token operator">=</span><span class="token string">"/media/share/mapp/public/QE_plus_unifr/raw"</span>
+<span class="token assign-left variable">output_dir</span><span class="token operator">=</span><span class="token string">"/media/share/mapp/public/QE_plus_unifr/converted"</span>
+<span class="token assign-left variable">log_file</span><span class="token operator">=</span><span class="token string">"/media/share/mapp/public/QE_plus_unifr/logfile.log"</span>
+<span class="token assign-left variable">processed_files</span><span class="token operator">=</span><span class="token string">"/media/share/mapp/public/QE_plus_unifr/processed_files.txt"</span>
+<span class="token assign-left variable">lock_file</span><span class="token operator">=</span><span class="token string">"/media/share/mapp/public/QE_plus_unifr/convert_new_files.lock"</span>
+
+<span class="token comment"># Create processed_files.txt if it doesn't exist</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> <span class="token operator">!</span> -f <span class="token string">"<span class="token variable">$processed_files</span>"</span> <span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token function">touch</span> <span class="token string">"<span class="token variable">$processed_files</span>"</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># Function to convert a file</span>
+<span class="token function-name function">convert_file</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token builtin class-name">local</span> <span class="token assign-left variable">file</span><span class="token operator">=</span><span class="token string">"<span class="token variable">$1</span>"</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">date</span><span class="token variable">)</span></span>: Converting file <span class="token variable">$file</span>"</span> <span class="token operator">>></span> <span class="token string">"<span class="token variable">$log_file</span>"</span>
+    <span class="token function">docker</span> run --rm -e <span class="token assign-left variable">WINEDEBUG</span><span class="token operator">=</span>-all <span class="token punctuation">\</span>
+    -v <span class="token string">"<span class="token variable">$input_dir</span>:/data"</span> <span class="token punctuation">\</span>
+    -v <span class="token string">"<span class="token variable">$output_dir</span>:/output"</span> <span class="token punctuation">\</span>
+    chambm/pwiz-skyline-i-agree-to-the-vendor-licenses wine msconvert <span class="token string">"/data/<span class="token variable"><span class="token variable">$(</span><span class="token function">basename</span> <span class="token string">"<span class="token variable">$file</span>"</span><span class="token variable">)</span></span>"</span> --outdir /output --mzML --64 --zlib
+    <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">date</span><span class="token variable">)</span></span>: Finished converting file <span class="token variable">$file</span>"</span> <span class="token operator">>></span> <span class="token string">"<span class="token variable">$log_file</span>"</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment"># Ensure only one instance of the script runs at a time</span>
+<span class="token keyword">if</span> <span class="token punctuation">[</span> -e <span class="token string">"<span class="token variable">$lock_file</span>"</span> <span class="token punctuation">]</span> <span class="token operator">&#x26;&#x26;</span> <span class="token function">kill</span> -0 <span class="token variable"><span class="token variable">$(</span><span class="token function">cat</span> <span class="token string">"<span class="token variable">$lock_file</span>"</span><span class="token variable">)</span></span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+    <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">date</span><span class="token variable">)</span></span>: Script is already running."</span> <span class="token operator">>></span> <span class="token string">"<span class="token variable">$log_file</span>"</span>
+    <span class="token builtin class-name">exit</span>
+<span class="token keyword">fi</span>
+
+<span class="token comment"># Create a lock file with the current PID</span>
+<span class="token builtin class-name">echo</span> <span class="token variable">$$</span> <span class="token operator">></span> <span class="token string">"<span class="token variable">$lock_file</span>"</span>
+
+<span class="token comment"># Ensure lock file is removed on script exit</span>
+<span class="token builtin class-name">trap</span> <span class="token string">"rm -f <span class="token variable">$lock_file</span>"</span> EXIT
+
+<span class="token comment"># Check for new .raw files and process them</span>
+<span class="token keyword">for</span> <span class="token for-or-select variable">file</span> <span class="token keyword">in</span> <span class="token string">"<span class="token variable">$input_dir</span>"</span>/*.raw<span class="token punctuation">;</span> <span class="token keyword">do</span>
+    <span class="token keyword">if</span> <span class="token operator">!</span> <span class="token function">grep</span> -Fxq <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">basename</span> <span class="token string">"<span class="token variable">$file</span>"</span><span class="token variable">)</span></span>"</span> <span class="token string">"<span class="token variable">$processed_files</span>"</span><span class="token punctuation">;</span> <span class="token keyword">then</span>
+        <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">date</span><span class="token variable">)</span></span>: Detected new file: <span class="token variable">$file</span>"</span> <span class="token operator">>></span> <span class="token string">"<span class="token variable">$log_file</span>"</span>
+        convert_file <span class="token string">"<span class="token variable">$file</span>"</span>
+        <span class="token builtin class-name">echo</span> <span class="token string">"<span class="token variable"><span class="token variable">$(</span><span class="token function">basename</span> <span class="token string">"<span class="token variable">$file</span>"</span><span class="token variable">)</span></span>"</span> <span class="token operator">>></span> <span class="token string">"<span class="token variable">$processed_files</span>"</span>
+    <span class="token keyword">fi</span>
+<span class="token keyword">done</span>
+</code></pre>
